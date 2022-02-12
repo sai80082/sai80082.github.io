@@ -6,13 +6,23 @@ body {
     rgba(3, 56, 244, 0.71) 0%,
     rgba(224, 37, 206, 0.79) 93.75%
   );
-
   background-repeat: no-repeat;
+}
+h1 {
+  font-size: 2.5vw;
+}
+h2 {
+  font-size: 1.5vw;
+}
+h4 {
+  font-size: 1vw;
+}
+h6 {
+  font-size: 0.8vw;
 }
 .right {
   margin: 2vh;
   padding: 5vh;
-  
   color: white;
   background: rgba(196, 196, 196, 0.3);
   border-radius: 1vh;
@@ -26,24 +36,16 @@ body {
   font-family: Montserrat;
   font-style: normal;
 }
-.basic h2,
-h4 {
-  color: #cecaca;
-}
 
-.contact a {
-  font-size: large;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
 .contactcontainer {
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
   margin-top: 1vh;
 }
+.contact a {
+  color: white;
+}
 .contact a:hover {
-  font-size: large;
-  text-decoration: none;
   color: blue;
 }
 .left {
@@ -91,7 +93,28 @@ circle:nth-child(2) {
   animation: percent 1.5s linear;
 }
 
+.social {
+  width: auto;
+  margin-top: 1vh;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  padding: 1vh;
+}
+
 .skillcontainer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.knowme {
+  margin-top: 2vh;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  padding: 2vh;
+}
+.knowme div {
+  text-align: center;
+  font-size: 2vh;
+  margin-bottom: 2vh;
 }
