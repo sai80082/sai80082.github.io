@@ -1,0 +1,97 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 56, 244, 0.71) 0%,
+    rgba(224, 37, 206, 0.79) 93.75%
+  );
+
+  background-repeat: no-repeat;
+}
+.right {
+  margin: 2vh;
+  padding: 5vh;
+  
+  color: white;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 1vh;
+}
+
+.left {
+  background: #ffffff;
+  border-radius: 1vh;
+}
+.basic {
+  font-family: Montserrat;
+  font-style: normal;
+}
+.basic h2,
+h4 {
+  color: #cecaca;
+}
+
+.contact a {
+  font-size: large;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.contactcontainer {
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  margin-top: 1vh;
+}
+.contact a:hover {
+  font-size: large;
+  text-decoration: none;
+  color: blue;
+}
+.left {
+  margin: 2vh;
+  padding: 5vh;
+}
+.subheading {
+  font-family: Montserrat;
+  font-style: normal;
+  color: white;
+  background: #545454;
+  border-radius: 5px;
+  text-align: center;
+  margin: 1vh;
+}
+
+.edu-name {
+  color: black;
+}
+.year {
+  color: rgb(131, 131, 131);
+}
+
+.skill svg {
+  width: 100px;
+  height: 100px;
+  margin: 1vh;
+}
+
+circle {
+  fill: none;
+  position: relative;
+  stroke-width: 1vh;
+  stroke-dasharray: 251;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+}
+@keyframes percent {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+circle:nth-child(2) {
+  stroke: rgb(72, 44, 233);
+  animation: percent 1.5s linear;
+}
+
+.skillcontainer {
+  display: flex;
+  justify-content: space-between;
+}
