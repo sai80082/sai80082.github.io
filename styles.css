@@ -83,7 +83,7 @@ circle {
 }
 @keyframes percent {
   0% {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 251;
   }
 }
 circle:nth-child(2) {
